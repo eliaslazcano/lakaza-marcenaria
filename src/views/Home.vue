@@ -1,18 +1,21 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-container class="d-flex flex-column justify-center align-center">
+    <img alt="App logo" src="../assets/logo.png" class="mb-5">
+    <v-btn
+      class="mb-5"
+      color="primary"
+      @click="$snackbar({text: 'Hello World', color: 'warning'})"
+    >Snackbar</v-btn>
+
+    <v-btn
+      color="primary"
+      @click="$loading(true)"
+    >Loading</v-btn>
+  </v-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
 }
 </script>

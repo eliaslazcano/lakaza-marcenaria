@@ -1,24 +1,35 @@
-# lakaza
+# Lakaza Marcenaria
 
-## Project setup
+Este projeto destina-se a fornecer controle das finanças, estoque e serviços realizados pela marcenaria **Lakaza Design**
+
+## Comandos de desenvolvimento
+
+Instalar dependencias
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Servidor de desenvolvimento com hot-reload
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+Compilar arquivos para produção
+
 ```
 npm run build
 ```
 
-### Lints and fixes files
+Analisar e corrigir arquivos
+
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Contato
+
+E-mail: elias304162@gmail.com
+
+Cliente: [Lakaza Design](https://lakaza.com.br/).
